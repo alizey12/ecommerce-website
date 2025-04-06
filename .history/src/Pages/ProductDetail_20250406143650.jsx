@@ -1,0 +1,1 @@
+Uncaught SyntaxError: The requested module '/src/contexts/CartContext.jsx?t=1743932099135' does not provide an export named 'default' (at ProductDetail.jsx:7:9)
