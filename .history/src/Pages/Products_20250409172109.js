@@ -55,9 +55,9 @@ const productsByCategory = {
           orders: 180,
           description: "Latest smartphone with advanced features",
           images: [
-              "/assets/phone.png",
-              "/assets/phone-alt1.jpg",
-              "/assets/phone-alt2.jpg"
+              "/src/assets/phone.png",
+              "/src/assets/phone-alt1.jpg",
+              "/src/assets/phone-alt2.jpg"
           ],
           specifications: {
               "Model": "iPhone X",
@@ -89,7 +89,7 @@ const productsByCategory = {
           orders: 95,
           description: "Powerful gaming laptop for enthusiasts",
           images: [
-              "/assets/laptop.png",
+              "/src/assets/laptop.png",
               "src/assets/laptop.png",
               "src/assets/laptop.png"
           ],
@@ -124,7 +124,7 @@ const productsByCategory = {
           orders: 320,
           description: "Feature-packed smartwatch for fitness tracking",
           images: [
-              "/assets/watch.png",
+              "/src/assets/watch.png",
               "src/assets/watch.png",
               "src/assets/watch.png"
           ],
@@ -158,9 +158,9 @@ const productsByCategory = {
           orders: 75,
           description: "Professional DSLR camera for photography",
           images: [
-              "/assets/camera.png",
-              "/assets/camera-alt1.jpg",
-              "/assets/camera-alt2.jpg"
+              "/src/assets/camera.png",
+              "/src/assets/camera-alt1.jpg",
+              "/src/assets/camera-alt2.jpg"
           ],
           specifications: {
               "Model": "EOS Rebel T8i",
@@ -192,9 +192,9 @@ const productsByCategory = {
           orders: 420,
           description: "Affordable wireless earbuds with great sound",
           images: [
-              "/assets/earbuds.png",
-              "/assets/earbuds-alt1.jpg",
-              "/assets/earbuds-alt2.jpg"
+              "/src/assets/earbuds.png",
+              "/src/assets/earbuds-alt1.jpg",
+              "/src/assets/earbuds-alt2.jpg"
           ],
           specifications: {
               "Model": "Redmi Buds 3",
@@ -227,9 +227,9 @@ const productsByCategory = {
           orders: 110,
           description: "Versatile tablet for work and entertainment",
           images: [
-              "/assets/tablet.png",
-              "/assets/tablet-alt1.jpg",
-              "/assets/tablet-alt2.jpg"
+              "/src/assets/tablet.png",
+              "/src/assets/tablet-alt1.jpg",
+              "/src/assets/tablet-alt2.jpg"
           ],
           specifications: {
               "Model": "MatePad Pro",
@@ -261,9 +261,9 @@ const productsByCategory = {
           orders: 65,
           description: "Next-gen gaming console with exclusive titles",
           images: [
-              "/assets/console.png",
-              "/assets/console-alt1.jpg",
-              "/assets/console-alt2.jpg"
+              "/src/assets/console.png",
+              "/src/assets/console-alt1.jpg",
+              "/src/assets/console-alt2.jpg"
           ],
           specifications: {
               "Model": "PlayStation 5",
@@ -295,9 +295,9 @@ const productsByCategory = {
           orders: 230,
           description: "Essential fitness tracker for health monitoring",
           images: [
-              "/assets/tracker.png",
-              "/assets/tracker-alt1.jpg",
-              "/assets/tracker-alt2.jpg"
+              "/src/assets/tracker.png",
+              "/src/assets/tracker-alt1.jpg",
+              "/src/assets/tracker-alt2.jpg"
           ],
           specifications: {
               "Model": "OnePlus Band",
@@ -329,9 +329,9 @@ const productsByCategory = {
           orders: 180,
           description: "Portable speaker with powerful sound",
           images: [
-              "/assets/speaker.png",
-              "/assets/speaker-alt1.jpg",
-              "/assets/speaker-alt2.jpg"
+              "/src/assets/speaker.png",
+              "/src/assets/speaker-alt1.jpg",
+              "/src/assets/speaker-alt2.jpg"
           ],
           specifications: {
               "Model": "JBL Flip 5",
@@ -364,9 +364,9 @@ const productsByCategory = {
         orders: 180,
         description: "Portable speaker with powerful sound",
         images: [
-            "/assets/speaker.png",
-            "/assets/speaker-alt1.jpg",
-            "/assets/speaker-alt2.jpg"
+            "/src/assets/speaker.png",
+            "/src/assets/speaker-alt1.jpg",
+            "/src/assets/speaker-alt2.jpg"
         ],
         specifications: {
             "Model": "JBL Flip 5",
@@ -399,9 +399,9 @@ const productsByCategory = {
       orders: 180,
       description: "Portable speaker with powerful sound",
       images: [
-          "/assets/speaker.png",
-          "/assets/speaker-alt1.jpg",
-          "/assets/speaker-alt2.jpg"
+          "/src/assets/speaker.png",
+          "/src/assets/speaker-alt1.jpg",
+          "/src/assets/speaker-alt2.jpg"
       ],
       specifications: {
           "Model": "JBL Flip 5",
@@ -434,9 +434,9 @@ const productsByCategory = {
     orders: 180,
     description: "Portable speaker with powerful sound",
     images: [
-        "/assets/speaker.png",
-        "/assets/speaker-alt1.jpg",
-        "/assets/speaker-alt2.jpg"
+        "/src/assets/speaker.png",
+        "/src/assets/speaker-alt1.jpg",
+        "/src/assets/speaker-alt2.jpg"
     ],
     specifications: {
         "Model": "JBL Flip 5",
@@ -470,9 +470,9 @@ const productsByCategory = {
   orders: 180,
   description: "Portable speaker with powerful sound",
   images: [
-      "/assets/speaker.png",
-      "/assets/speaker-alt1.jpg",
-      "/assets/speaker-alt2.jpg"
+      "/src/assets/speaker.png",
+      "/src/assets/speaker-alt1.jpg",
+      "/src/assets/speaker-alt2.jpg"
   ],
   specifications: {
       "Model": "JBL Flip 5",
@@ -506,9 +506,9 @@ const productsByCategory = {
   orders: 180,
   description: "Portable speaker with powerful sound",
   images: [
-      "/assets/speaker.png",
-      "/assets/speaker-alt1.jpg",
-      "/assets/speaker-alt2.jpg"
+      "/src/assets/speaker.png",
+      "/src/assets/speaker-alt1.jpg",
+      "/src/assets/speaker-alt2.jpg"
   ],
   specifications: {
       "Model": "JBL Flip 5",
@@ -542,9 +542,9 @@ const productsByCategory = {
   orders: 180,
   description: "Portable speaker with powerful sound",
   images: [
-      "/assets/speaker.png",
-      "/assets/speaker-alt1.jpg",
-      "/assets/speaker-alt2.jpg"
+      "/src/assets/speaker.png",
+      "/src/assets/speaker-alt1.jpg",
+      "/src/assets/speaker-alt2.jpg"
   ],
   specifications: {
       "Model": "JBL Flip 5",
@@ -578,9 +578,9 @@ const productsByCategory = {
   orders: 180,
   description: "Portable speaker with powerful sound",
   images: [
-      "/assets/speaker.png",
-      "/assets/speaker-alt1.jpg",
-      "/assets/speaker-alt2.jpg"
+      "/src/assets/speaker.png",
+      "/src/assets/speaker-alt1.jpg",
+      "/src/assets/speaker-alt2.jpg"
   ],
   specifications: {
       "Model": "JBL Flip 5",
@@ -614,9 +614,9 @@ const productsByCategory = {
   orders: 180,
   description: "Portable speaker with powerful sound",
   images: [
-      "/assets/speaker.png",
-      "/assets/speaker-alt1.jpg",
-      "/assets/speaker-alt2.jpg"
+      "/src/assets/speaker.png",
+      "/src/assets/speaker-alt1.jpg",
+      "/src/assets/speaker-alt2.jpg"
   ],
   specifications: {
       "Model": "JBL Flip 5",
@@ -650,9 +650,9 @@ const productsByCategory = {
   orders: 180,
   description: "Portable speaker with powerful sound",
   images: [
-      "/assets/speaker.png",
-      "/assets/speaker-alt1.jpg",
-      "/assets/speaker-alt2.jpg"
+      "/src/assets/speaker.png",
+      "/src/assets/speaker-alt1.jpg",
+      "/src/assets/speaker-alt2.jpg"
   ],
   specifications: {
       "Model": "JBL Flip 5",
@@ -685,9 +685,9 @@ const productsByCategory = {
   image: "src/assets/watch.png",
   description: "Portable speaker with powerful sound",
   images: [
-      "/assets/speaker.png",
-      "/assets/speaker-alt1.jpg",
-      "/assets/speaker-alt2.jpg"
+      "/src/assets/speaker.png",
+      "/src/assets/speaker-alt1.jpg",
+      "/src/assets/speaker-alt2.jpg"
   ],
   specifications: {
       "Model": "JBL Flip 5",

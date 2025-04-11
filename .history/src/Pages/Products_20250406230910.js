@@ -16,7 +16,7 @@ const productsByCategory = {
           images: [
               "src/assets/ear-fone.png",
               "src/assets/ear-fone.png",
-              "src/assets/ear-fone.png"
+              "/src/assets/headphones-alt2.jpg"
           ],
           specifications: {
               "Model Number": "WH-1000XM4",
@@ -55,9 +55,9 @@ const productsByCategory = {
           orders: 180,
           description: "Latest smartphone with advanced features",
           images: [
-              "/assets/phone.png",
-              "/assets/phone-alt1.jpg",
-              "/assets/phone-alt2.jpg"
+              "/src/assets/phone.png",
+              "/src/assets/phone-alt1.jpg",
+              "/src/assets/phone-alt2.jpg"
           ],
           specifications: {
               "Model": "iPhone X",
@@ -84,14 +84,13 @@ const productsByCategory = {
           brand: "Lenovo",
           features: ["16GB RAM", "RTX 3060", "144Hz Display"],
           condition: "Brand New",
-          image: "src/assets/laptop.png",
           rating: 4.7,
           orders: 95,
           description: "Powerful gaming laptop for enthusiasts",
           images: [
-              "/assets/laptop.png",
-              "src/assets/laptop.png",
-              "src/assets/laptop.png"
+              "/src/assets/laptop.png",
+              "/src/assets/laptop-alt1.jpg",
+              "/src/assets/laptop-alt2.jpg"
           ],
           specifications: {
               "Processor": "Intel i7-11800H",
@@ -116,7 +115,6 @@ const productsByCategory = {
           price: 199.99,
           discount: 249.99,
           category: "Wearables",
-          image: "src/assets/watch.png",
           brand: "Samsung",
           features: ["Heart Rate Monitor", "Waterproof", "GPS"],
           condition: "Brand New",
@@ -124,9 +122,9 @@ const productsByCategory = {
           orders: 320,
           description: "Feature-packed smartwatch for fitness tracking",
           images: [
-              "/assets/watch.png",
-              "src/assets/watch.png",
-              "src/assets/watch.png"
+              "/src/assets/watch.png",
+              "/src/assets/watch-alt1.jpg",
+              "/src/assets/watch-alt2.jpg"
           ],
           specifications: {
               "Model": "Galaxy Watch 4",
@@ -151,16 +149,15 @@ const productsByCategory = {
           price: 599.99,
           category: "Cameras",
           brand: "Canon",
-          image: "src/assets/camera.png",
           features: ["24MP", "4K Video", "Wi-Fi"],
           condition: "Brand New",
           rating: 4.6,
           orders: 75,
           description: "Professional DSLR camera for photography",
           images: [
-              "/assets/camera.png",
-              "/assets/camera-alt1.jpg",
-              "/assets/camera-alt2.jpg"
+              "/src/assets/camera.png",
+              "/src/assets/camera-alt1.jpg",
+              "/src/assets/camera-alt2.jpg"
           ],
           specifications: {
               "Model": "EOS Rebel T8i",
@@ -185,16 +182,15 @@ const productsByCategory = {
           price: 59.99,
           category: "Audio",
           brand: "Xiaomi",
-          image: "src/assets/white-ear-fone.png",
           features: ["Bluetooth", "Touch Controls", "IPX4"],
           condition: "Brand New",
           rating: 4.2,
           orders: 420,
           description: "Affordable wireless earbuds with great sound",
           images: [
-              "/assets/earbuds.png",
-              "/assets/earbuds-alt1.jpg",
-              "/assets/earbuds-alt2.jpg"
+              "/src/assets/earbuds.png",
+              "/src/assets/earbuds-alt1.jpg",
+              "/src/assets/earbuds-alt2.jpg"
           ],
           specifications: {
               "Model": "Redmi Buds 3",
@@ -220,16 +216,15 @@ const productsByCategory = {
           discount: 399.99,
           category: "Tablets",
           brand: "Huawei",
-          image: "src/assets/tablet.png",
           features: ["10.8\" Display", "128GB Storage", "Stylus Support"],
           condition: "Refurbished",
           rating: 4.4,
           orders: 110,
           description: "Versatile tablet for work and entertainment",
           images: [
-              "/assets/tablet.png",
-              "/assets/tablet-alt1.jpg",
-              "/assets/tablet-alt2.jpg"
+              "/src/assets/tablet.png",
+              "/src/assets/tablet-alt1.jpg",
+              "/src/assets/tablet-alt2.jpg"
           ],
           specifications: {
               "Model": "MatePad Pro",
@@ -253,7 +248,6 @@ const productsByCategory = {
           name: "Gaming Console",
           price: 499.99,
           category: "Gaming",
-          image: "src/assets/blue-wallet.png",
           brand: "Sony",
           features: ["4K Gaming", "1TB Storage", "VR Ready"],
           condition: "Brand New",
@@ -261,9 +255,9 @@ const productsByCategory = {
           orders: 65,
           description: "Next-gen gaming console with exclusive titles",
           images: [
-              "/assets/console.png",
-              "/assets/console-alt1.jpg",
-              "/assets/console-alt2.jpg"
+              "/src/assets/console.png",
+              "/src/assets/console-alt1.jpg",
+              "/src/assets/console-alt2.jpg"
           ],
           specifications: {
               "Model": "PlayStation 5",
@@ -286,7 +280,6 @@ const productsByCategory = {
           id: 9,
           name: "Fitness Tracker",
           price: 79.99,
-          image: "src/assets/cactus.png",
           category: "Wearables",
           brand: "OnePlus",
           features: ["Heart Rate", "Sleep Tracking", "Waterproof"],
@@ -295,9 +288,9 @@ const productsByCategory = {
           orders: 230,
           description: "Essential fitness tracker for health monitoring",
           images: [
-              "/assets/tracker.png",
-              "/assets/tracker-alt1.jpg",
-              "/assets/tracker-alt2.jpg"
+              "/src/assets/tracker.png",
+              "/src/assets/tracker-alt1.jpg",
+              "/src/assets/tracker-alt2.jpg"
           ],
           specifications: {
               "Model": "OnePlus Band",
@@ -329,9 +322,9 @@ const productsByCategory = {
           orders: 180,
           description: "Portable speaker with powerful sound",
           images: [
-              "/assets/speaker.png",
-              "/assets/speaker-alt1.jpg",
-              "/assets/speaker-alt2.jpg"
+              "/src/assets/speaker.png",
+              "/src/assets/speaker-alt1.jpg",
+              "/src/assets/speaker-alt2.jpg"
           ],
           specifications: {
               "Model": "JBL Flip 5",
@@ -357,16 +350,15 @@ const productsByCategory = {
         discount: 149.99,
         category: "Audio",
         brand: "JBL",
-        image: "src/assets/brown-jacket.png",
         features: ["Waterproof", "20h Battery", "Party Mode"],
         condition: "Brand New",
         rating: 4.7,
         orders: 180,
         description: "Portable speaker with powerful sound",
         images: [
-            "/assets/speaker.png",
-            "/assets/speaker-alt1.jpg",
-            "/assets/speaker-alt2.jpg"
+            "/src/assets/speaker.png",
+            "/src/assets/speaker-alt1.jpg",
+            "/src/assets/speaker-alt2.jpg"
         ],
         specifications: {
             "Model": "JBL Flip 5",
@@ -392,16 +384,15 @@ const productsByCategory = {
       discount: 149.99,
       category: "Audio",
       brand: "JBL",
-      image: "src/assets/blender.png",
       features: ["Waterproof", "20h Battery", "Party Mode"],
       condition: "Brand New",
       rating: 4.7,
       orders: 180,
       description: "Portable speaker with powerful sound",
       images: [
-          "/assets/speaker.png",
-          "/assets/speaker-alt1.jpg",
-          "/assets/speaker-alt2.jpg"
+          "/src/assets/speaker.png",
+          "/src/assets/speaker-alt1.jpg",
+          "/src/assets/speaker-alt2.jpg"
       ],
       specifications: {
           "Model": "JBL Flip 5",
@@ -427,16 +418,15 @@ const productsByCategory = {
     discount: 149.99,
     category: "Audio",
     brand: "JBL",
-    image: "src/assets/box.png",
     features: ["Waterproof", "20h Battery", "Party Mode"],
     condition: "Brand New",
     rating: 4.7,
     orders: 180,
     description: "Portable speaker with powerful sound",
     images: [
-        "/assets/speaker.png",
-        "/assets/speaker-alt1.jpg",
-        "/assets/speaker-alt2.jpg"
+        "/src/assets/speaker.png",
+        "/src/assets/speaker-alt1.jpg",
+        "/src/assets/speaker-alt2.jpg"
     ],
     specifications: {
         "Model": "JBL Flip 5",
@@ -461,8 +451,6 @@ const productsByCategory = {
   price: 129.99,
   discount: 149.99,
   category: "Audio",
-  image: "src/assets/jeans-short.png",
-
   brand: "JBL",
   features: ["Waterproof", "20h Battery", "Party Mode"],
   condition: "Brand New",
@@ -470,9 +458,9 @@ const productsByCategory = {
   orders: 180,
   description: "Portable speaker with powerful sound",
   images: [
-      "/assets/speaker.png",
-      "/assets/speaker-alt1.jpg",
-      "/assets/speaker-alt2.jpg"
+      "/src/assets/speaker.png",
+      "/src/assets/speaker-alt1.jpg",
+      "/src/assets/speaker-alt2.jpg"
   ],
   specifications: {
       "Model": "JBL Flip 5",
@@ -498,17 +486,15 @@ const productsByCategory = {
   discount: 149.99,
   category: "Audio",
   brand: "JBL",
-  image: "src/assets/kettle.png",
-
   features: ["Waterproof", "20h Battery", "Party Mode"],
   condition: "Brand New",
   rating: 4.7,
   orders: 180,
   description: "Portable speaker with powerful sound",
   images: [
-      "/assets/speaker.png",
-      "/assets/speaker-alt1.jpg",
-      "/assets/speaker-alt2.jpg"
+      "/src/assets/speaker.png",
+      "/src/assets/speaker-alt1.jpg",
+      "/src/assets/speaker-alt2.jpg"
   ],
   specifications: {
       "Model": "JBL Flip 5",
@@ -534,17 +520,15 @@ const productsByCategory = {
   discount: 149.99,
   category: "Audio",
   brand: "JBL",
-  image: "src/assets/lamp.png",
-
   features: ["Waterproof", "20h Battery", "Party Mode"],
   condition: "Brand New",
   rating: 4.7,
   orders: 180,
   description: "Portable speaker with powerful sound",
   images: [
-      "/assets/speaker.png",
-      "/assets/speaker-alt1.jpg",
-      "/assets/speaker-alt2.jpg"
+      "/src/assets/speaker.png",
+      "/src/assets/speaker-alt1.jpg",
+      "/src/assets/speaker-alt2.jpg"
   ],
   specifications: {
       "Model": "JBL Flip 5",
@@ -573,14 +557,12 @@ const productsByCategory = {
   features: ["Waterproof", "20h Battery", "Party Mode"],
   condition: "Brand New",
   rating: 4.7,
-  image: "src/assets/mud.png",
-
   orders: 180,
   description: "Portable speaker with powerful sound",
   images: [
-      "/assets/speaker.png",
-      "/assets/speaker-alt1.jpg",
-      "/assets/speaker-alt2.jpg"
+      "/src/assets/speaker.png",
+      "/src/assets/speaker-alt1.jpg",
+      "/src/assets/speaker-alt2.jpg"
   ],
   specifications: {
       "Model": "JBL Flip 5",
@@ -605,8 +587,6 @@ const productsByCategory = {
   price: 129.99,
   discount: 149.99,
   category: "Audio",
-  image: "src/assets/mixer.png",
-
   brand: "JBL",
   features: ["Waterproof", "20h Battery", "Party Mode"],
   condition: "Brand New",
@@ -614,9 +594,9 @@ const productsByCategory = {
   orders: 180,
   description: "Portable speaker with powerful sound",
   images: [
-      "/assets/speaker.png",
-      "/assets/speaker-alt1.jpg",
-      "/assets/speaker-alt2.jpg"
+      "/src/assets/speaker.png",
+      "/src/assets/speaker-alt1.jpg",
+      "/src/assets/speaker-alt2.jpg"
   ],
   specifications: {
       "Model": "JBL Flip 5",
@@ -641,8 +621,6 @@ const productsByCategory = {
   price: 129.99,
   discount: 149.99,
   category: "Audio",
-  image: "src/assets/wallet.png",
-
   brand: "JBL",
   features: ["Waterproof", "20h Battery", "Party Mode"],
   condition: "Brand New",
@@ -650,9 +628,9 @@ const productsByCategory = {
   orders: 180,
   description: "Portable speaker with powerful sound",
   images: [
-      "/assets/speaker.png",
-      "/assets/speaker-alt1.jpg",
-      "/assets/speaker-alt2.jpg"
+      "/src/assets/speaker.png",
+      "/src/assets/speaker-alt1.jpg",
+      "/src/assets/speaker-alt2.jpg"
   ],
   specifications: {
       "Model": "JBL Flip 5",
@@ -682,12 +660,11 @@ const productsByCategory = {
   condition: "Brand New",
   rating: 4.7,
   orders: 180,
-  image: "src/assets/watch.png",
   description: "Portable speaker with powerful sound",
   images: [
-      "/assets/speaker.png",
-      "/assets/speaker-alt1.jpg",
-      "/assets/speaker-alt2.jpg"
+      "/src/assets/speaker.png",
+      "/src/assets/speaker-alt1.jpg",
+      "/src/assets/speaker-alt2.jpg"
   ],
   specifications: {
       "Model": "JBL Flip 5",
